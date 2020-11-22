@@ -1,16 +1,7 @@
 module.exports = {
 	name: 'invite',
     description: 'Sends the bots invite link',
-	run(message) {
-    const embed = new MessageEmbed()
-      .setTitle('Invite Me')
-      .setDescription(oneLine`
-        Click [here](INVITELINKHERE)
-        to invite me to your server!
-      `)
-      .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
-      .setTimestamp()
-      .setColor(message.guild.me.displayHexColor);
-    message.channel.send(embed);
-  }
+	execute(message, args) {
+		message.channel.send(`https://discord.com/api/oauth2/authorize?client_id=779798400584515594&permissions=8&scope=bot`)
+	},
 };
