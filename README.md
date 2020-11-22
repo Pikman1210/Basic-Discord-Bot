@@ -9,3 +9,6 @@
 
  To add new commands, use the reference file and create a new .js file with the command's name. Then change the name and description of the new export. 
  Ta da! You've added a new command. Now you just need the code to execute.
+ 
+ To invite your bot, go to OAuth2 of your discord application. Then select bot at the bottom then select the permissions you want.
+ Then copy that, and replace "your invite here" in invite.js with that.
