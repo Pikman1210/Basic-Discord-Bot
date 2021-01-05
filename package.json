@@ -2,7 +2,7 @@
   "name": "testbotv3",
   "version": "1.0.0",
   "description": "Its another test bot",
-  "main": "main.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
