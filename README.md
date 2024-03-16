@@ -1,4 +1,4 @@
-# OUTDATED
+# Archived due to being way out of date
 # Basic Discord Bot
  A basic discord bot for new users.
  
